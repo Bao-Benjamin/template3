@@ -6,24 +6,39 @@
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="./assets/reponsive.css">
+    <link rel="stylesheet" href="./menu.css">
     <title>template3</title>
 </head>
 <body>
+    <input type="checkbox" id="appear" class="open" name="appear">
+    <label for="appear"></label>
+    <!-- <input type="checkbox" id="close"  name="close">
+    <label for="close"></label> -->
+    <div class="sub-nav">
+        <ul>
+            <li><a href="">Close Menu</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
     <div class="heading_nav">
         <div class="heading_nav-icon">
             <i class="fa-solid fa-bars"></i>
-            <div class="sub-nav">
+            <!-- <input type="checkbox" id="open" name="open"> -->
+            <!-- <label for="open"><i class="fa-solid fa-bars"></i></label> -->
+            <!-- <div class="sub-nav">
                 <ul>
                     <li>Close Menu</li>
                     <li>Food</li>
                     <li>About</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
         <div class="heading_nav-text"><p>My Food</p></div>
         <div class="heading_nav-email"><p>Email</p></div>
     </div>
-    <div class="body_footer">
+    <div class="body_footer" >
         <div class="part_above">
             <div class="img">
                 <img src="./assets/ảnh1.jpg" alt="img1">
@@ -49,7 +64,7 @@
             </div>
             
         </div>
-        <div class="part_middle">
+        <div class="part_middle" id="food">
             <div class="img2">
                 <img src="./assets/ảnh5.jpg" alt="img5">
                 <h2>All I Need Is a Popsicle</h2>
@@ -73,7 +88,7 @@
           
         </div>
         
-        <ul class="part_below">
+        <ul class="part_below" id="about">
             <li>
                 <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
     
